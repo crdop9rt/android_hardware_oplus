@@ -20,6 +20,8 @@ genfscon sysfs /devices/platform/soc/soc:oplus,chg_intf/oplus_chg         u:obje
 genfscon sysfs /devices/platform/soc/soc:oplus,chg_wls/oplus_mms          u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,mms_gauge/oplus_mms        u:object_r:vendor_sysfs_usb_supply:s0
 genfscon sysfs /devices/platform/soc/soc:oplus,mms_wired/oplus_mms        u:object_r:vendor_sysfs_usb_supply:s0
+genfscon sysfs /devices/virtual/oplus_chg/battery                      u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/virtual/oplus_chg                              u:object_r:vendor_sysfs_usb_supply:s0
 
 # Camera
 genfscon proc /boost_pool/camera_pages           u:object_r:vendor_proc_camera:s0
